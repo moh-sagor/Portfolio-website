@@ -178,6 +178,7 @@ section {
 
 .basic-card-aqua {
     background-image: linear-gradient(to bottom right, #00bfad, #99a3d4);
+    border-radius: 15px;
 }
 
 .basic-card-aqua:hover {
@@ -199,6 +200,7 @@ section {
 
 .basic-card-lips {
     background-image: linear-gradient(to bottom right, #ec407b, #ff7d94);
+    border-radius: 15px;
 }
 
 .basic-card-lips:hover {
@@ -219,6 +221,7 @@ section {
 
 .basic-card-light {
     border: 1px solid #eee;
+    border-radius: 15px;
 }
 
 .basic-card-light:hover {
@@ -245,4 +248,9 @@ section {
 .card-content .card-image {
     height: 150px;
     margin-left: 20%;
+}
+
+footer p {
+    text-align: center;
+    color: rgb(125, 130, 134);
 }
