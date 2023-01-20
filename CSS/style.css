@@ -43,7 +43,7 @@ section {
     height: 50px;
     width: 150px;
     background: linear-gradient(to top left, #33ccff 0%, #ff33cc 100%);
-    color: aquamarine;
+    color: rgb(28, 9, 237);
     border: none;
     border-radius: 10px;
     font-family: 'Josefin Sans', sans-serif;
@@ -60,4 +60,40 @@ section {
     border-radius: 10px;
 }
 
-content-of-portfolio {}
+.image-and-text-for-body {
+    width: 70%;
+}
+
+.image-and-text-for-bodyq img {
+    height: 300px;
+    width: auto;
+}
+
+.image-and-text-for-body-flex {
+    display: flex;
+}
+
+.image-and-text-for-body p {
+    font-size: 22px;
+}
+
+.image-and-text-for-body button {
+    height: 50px;
+    width: 150px;
+    background: linear-gradient(to top left, #33ccff 0%, #ff33cc 100%);
+    color: aquamarine;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-justify: center;
+    font-size: 18px;
+}
+
+.image-and-text-for-body button:hover {
+    height: 50px;
+    width: 150px;
+    background: linear-gradient(to top left, #ff33e7 0%, #07ff6e 100%);
+    color: red;
+    border: none;
+    border-radius: 10px;
+}
