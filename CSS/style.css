@@ -254,3 +254,16 @@ footer p {
     text-align: center;
     color: rgb(125, 130, 134);
 }
+
+.icon {
+    text-align: center;
+    font-size: 50px;
+}
+
+.icon i {
+    color: rgb(9, 101, 172);
+}
+
+.icon i:hover {
+    color: #83cf09f6;
+}
