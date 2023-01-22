@@ -67,6 +67,12 @@ section {
 .image-and-text-for-bodyq img {
     height: 300px;
     width: auto;
+    transition: transform 5s;
+}
+
+.image-and-text-for-bodyq img:hover {
+    transform: scale(1.5)
+        /*rotate(360deg);*/
 }
 
 .image-and-text-for-body-flex {
@@ -266,4 +272,56 @@ footer p {
 
 .icon i:hover {
     color: #83cf09f6;
+}
+
+@media (max-width:700px) {
+    .image-and-text-for-body-flex {
+        display: inline;
+        text-align: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    section .img img {
+        justify-content: center;
+        padding: 1px;
+        position: relative;
+    }
+
+    .mern-tagline {
+        text-align: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    .image-and-text-for-body-flex .image-and-text-for-body {
+        text-align: center;
+        justify-content: center;
+        position: relative;
+
+    }
+
+    .basic-card {
+        width: 80%;
+        position: relative;
+        margin-bottom: 10px;
+
+        -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
+        -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
+        -o-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
+        box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
+    }
+
+    .card-content .card-image {
+        height: 100px;
+        margin-left: 20%;
+
+    }
+
+    .image-and-text-for-body button {
+        margin-bottom: 10px;
+        justify-content: center;
+        text-align: center;
+        position: center;
+    }
 }
